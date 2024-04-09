@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de pagina web con bootstrap5</title>
+    <link rel="stylesheet" href="css/bootstrap.min (2).css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <header>
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Deportes de Honduras</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Clasificación</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Más populares
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="futbol.html">Fútbol</a></li>
+                                  <li><a class="dropdown-item" href="boxeo.html">Boxeo</a></li>
+                                  <li><a class="dropdown-item" href="karate.html">Karate</a></li>
+                                  <li><a class="dropdown-item" href="béisbol.html">Béisbol</a></li>
+                                  <li><a class="dropdown-item" href="natacion.html">Natación</a></li>
+                                  <li><a class="dropdown-item" href="baloncesto.html">Baloncesto</a></li>
+                                  <li><a class="dropdown-item" href="atletismo.html">Atletismo</a></li>
+                                  <li><a class="dropdown-item" href="voleibol.html">Voleibol</a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/portada1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>No pretendas hacer todo perfecto a la primera, las cosas difíciles llevan su tiempo.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>El verdadero fracaso no es perder, sino no atreverse a intentarlo.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>“No te midas por lo que has logrado, sino por lo que deberías haber logrado con tu capacidad”</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada4.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Cuanto más hacemos, más podemos hacer</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada5.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Puedo porque creo que puedo</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada6.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>La persistencia puede cambiar el fracaso en un logro extraordinario</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada7.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Tu mayor oponente no es la otra persona. Es la naturaleza humana</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+        </header>
+        <section>
+            <div class="row mt-5">
+                <aside class="col-sm-12-col-md-4">
+                    <div class="list-group">
+                        <a href="#definicion" class="list-group-item list-group-item-action " aria-current="true">
+                          El Béisbol
+                        </a>
+                        <a href="#reglas" class="list-group-item list-group-item-action">Regla Básicas</a>
+                        
+                      </div>
+                </aside>
+                <section class="col-sm-12 col-md-8">
+                    <!--Definicion-->
+                    <div class="row">
+                        <div id="definicion"></div>
+                            <h1>¿Qué es el Béisbol?</h1>
+                            <small> <strong>Béisbol en Honduras</strong> </small>
+                            <img src="img/beisbol.1.jpg" alt="">
+                            <p>
+                              El béisbol es un deporte de bate y pelota jugado en un campo por dos equipos uno contra el otro. En el béisbol, un jugador de un equipo lanza una pelota pequeña y redonda a un jugador del otro equipo, quien trata de golpearla con un bate. Luego, el jugador que golpea la pelota tiene que correr alrededor del campo. Los jugadores obtienen carreras corriendo en un círculo completo alrededor de tres puntos en el suelo llamados bases, para volver al lugar donde comenzaron, que se llama plato de home. Tienen que hacer esto sin ser atrapados por los jugadores del otro equipo.
+                                </p>
+                                <p>
+                                  El béisbol comenzó en los Estados Unidos en los años 1700 y 1800. Muchas personas en América del Norte, América del Sur y el este de Asia juegan béisbol, pero el deporte es más conocido en los Estados Unidos y Japón. En los EE. UU., el béisbol se conoce como el pasatiempo nacional, porque muchas personas en los Estados Unidos solían pasar mucho tiempo jugando o viendo partidos de béisbol. Hoy, sin embargo, la mayoría de los estadounidenses siguen más el fútbol que el béisbol, especialmente cuando llega el Super Bowl. </p>
+
+                                 
+                               
+                        </div>
+                    </div>
+                    <!--/Definicion-->
+                    <!--Regla-->
+                    <div class="row">
+                        <div id="regla">
+                            <h1>Reglas básicas del béisbol</h1>
+                            <p>El equipo local siempre comienza jugando a la defensiva, mientras que el visitante inicia bateando. Después de tres outs, cambian su posición en el campo.</p>
+                            <p>El campo de juego tiene dos líneas que delimitan el terreno y que, dependiendo de dónde caiga un batazo, se considerará la pelota en juego o fuera de juego. En caso de que la pelota toque cualquier parte del terreno entre estas dos líneas después de ser bateada, es marcada como buena; si cae detrás de las líneas, será foul.</p>
+                            <p>Si un bateador falla al golpear la pelota, acumula un "strike". Al acumular tres strikes en su turno, el jugador queda fuera, es decir, es out.</p>
+                            <p>Cuando la pelota pasa por una zona donde el bateador pudo haber hecho contacto con ella y no lo hace, el lanzamiento se canta como strike. Si la pelota pasa fuera de esa zona, se marcará "bola".</p>
+                            <p>Cuando la pelota pasa por una zona donde el bateador pudo haber hecho contacto con ella y no lo hace, el lanzamiento se canta como strike. Si la pelota pasa fuera de esa zona, se marcará "bola".</p>
+                            <p>Los jugadores deben seguir el orden al bate de su equipo establecido por el manager antes del juego en la hoja del “lineup” o “alineación”.</p>
+                            <p></p>
+                            <img src="img/beisbol.2.jpg" class="rounded float-end" alt="...">
+                            
+                        </div>
+                    </div>
+                    <!--/Regla-->
+                    
+                  
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+                <p class="text-center">
+                    Todos los derechos reservados 2024.Diseñador Web Jada Hernandez Amaya
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

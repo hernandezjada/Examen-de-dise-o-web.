@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de pagina web con bootstrap5</title>
+    <link rel="stylesheet" href="css/bootstrap.min (2).css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <header>
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Deportes de Honduras</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Clasificación</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Más populares
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="futbol.html">Fútbol</a></li>
+                                  <li><a class="dropdown-item" href="boxeo.html">Boxeo</a></li>
+                                  <li><a class="dropdown-item" href="karate.html">Karate</a></li>
+                                  <li><a class="dropdown-item" href="béisbol.html">Béisbol</a></li>
+                                  <li><a class="dropdown-item" href="natacion.html">Natación</a></li>
+                                  <li><a class="dropdown-item" href="baloncesto.html">Baloncesto</a></li>
+                                  <li><a class="dropdown-item" href="atletismo.html">Atletismo</a></li>
+                                  <li><a class="dropdown-item" href="voleibol.html">Voleibol</a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/portada1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>No pretendas hacer todo perfecto a la primera, las cosas difíciles llevan su tiempo.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>El verdadero fracaso no es perder, sino no atreverse a intentarlo.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>“No te midas por lo que has logrado, sino por lo que deberías haber logrado con tu capacidad”</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada4.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Cuanto más hacemos, más podemos hacer</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada5.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Puedo porque creo que puedo</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada6.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>La persistencia puede cambiar el fracaso en un logro extraordinario</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada7.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Tu mayor oponente no es la otra persona. Es la naturaleza humana</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+        </header>
+        <section>
+            <div class="row mt-5">
+                <aside class="col-sm-12-col-md-4">
+                    <div class="list-group">
+                        <a href="#definicion" class="list-group-item list-group-item-action " aria-current="true">
+                           El Voleibol
+                        </a>
+                        <a href="#historia" class="list-group-item list-group-item-action">Historia del voleibol</a>
+                        <a href="#reglas" class="list-group-item list-group-item-action">Reglas del voleibol</a>
+                        <a href="fundamentos" class="list-group-item list-group-item-action">Fundamentos del voleibol</a>
+
+                        
+                      </div>
+                </aside>
+                <section class="col-sm-12 col-md-8">
+                    <!--Definicion-->
+                    <div class="row">
+                        <div id="definicion"></div>
+                            <h1></h1>
+                            <small> <strong>Voleibol en Honduras</strong> </small>
+                            <img src="img/voleibol.2.jpg" alt="">
+                            <p>
+                              El voleibol, volibol, vóley o balonvolea es un deporte que consiste en el encuentro de dos equipos compuesto por seis jugadores cada uno, que se enfrentan en una chanca dividida por una red o malla sobre la cual deben pasar una pelota a fin de que toque el suelo del campo contrario para hacer una anotación.
+                                </p>
+                                <p>
+                                  Por tanto, el objetivo del voleibol es lograr anotar puntos con los pases de pelota hacia el campo adversario, cosa que tratará de impedir el equipo contrario a través de jugadas defensivas como toques, ataques o bloqueos. </p>
+
+                                  <p>Cabe mencionar que el balón se puede impulsar con cualquier parte del cuerpo a través de golpes limpios. Sin embargo, por lo general se utilizan las manos y los antebrazos. Durante el juego la pelota no puede ser sujetada o retenida.</p>
+
+                                 
+                               
+                               
+                        </div>
+                    </div>
+                    <!--/Definicion-->
+                    <!--Historia-->
+                    <div class="row">
+                        <div id="historia">
+                            <h1>Historia del voleibol</h1>
+                            <p>El voleibol es un juego deportivo creado por William George Morgan en el año 1895, cuando este se desempeñaba como profesor y entrenador deportivo en la YMCA (Asociación Cristiana de Jóvenes) de Holyoke, Massachusetts (Estados Unidos).</p>
+                            <p>Morgan se vio en la necesidad de crear una actividad física alternativa y de menor intensidad que el baloncesto, deporte creado por su compañero James Naismith en 1891, el cual pudiese ser practicado tanto por jóvenes como por personas adultas en espacios cerrados o abiertos. De esta manera nació el voleibol bajo el nombre de mintonette.</p>
+                            <p>Para su creación Morgan tomó en cuenta todas las técnicas deportivas que él ya conocía y ponía en práctica con sus alumnos, su finalidad era crear un juego por equipos para entrenar y competir, por tanto estableció tanto sus primeras reglas como los elementos del juego.</p>
+                            <p>En el año 1896 Morgan realizó la primera presentación pública del voleibol en una conferencia de las diversas asociaciones YMCA. Desde ese momento el voleibol consiguió gran receptividad y comenzó a expandirse por diversos países.</p>
+                            <p>En principio el voleibol era un deporte practicado exclusivamente por hombres, pero al pasar los años también se incluyó el voleibol femenino.</p>
+                            <p>En la actualidad el voleibol es un deporte que cuenta con un organismo de carácter internacional fundado en el año 1947, la Federación Internacional de Voleibol (FIVB). Es el lugar donde se definen sus reglamentos y organizan las diversas actividades en torno a este deporte.</p>
+                            <p>Los primeros campeonatos mundiales se organizaron en 1949 para la categoría masculina, y en 1952 para la categoría femenina. El voleibol de playa se incorporó a la FIVB en el año 1986 y a los Juegos Olímpicos en 1996.</p>
+                            <img src="img/voleibol.1.jpg"  alt="...">
+
+                        </div>
+                    </div>
+                    <!--/Deporte-->
+                    <!--Reglas-->
+                    <div class="row">
+                      <div id="regla"></div>
+                      <h1>Reglas del voleibol</h1>
+                      <p>En la imagen se aprecia la línea central de la cancha y sobre la cual se coloca la red divisoria sostenida por los postes. También se ven las varas que delimitan el área de juego, y se aprecian las líneas que delimitan la zona de ataque, justo frente a la red. El suelo de color azul con líneas blancas es la zona libre.</p>
+                      <p> El campo de juego o cancha es de forma rectangular y debe medir 18 m de largo po 9 m de ancho.
+                      </p>
+                      <p>La zona libre del campo debe medir 3 m en cada uno de sus cuatro lados, ya que ahí también se realizan jugadas.</p>
+                      <p>La mitad del campo debe estar marcada por una línea sobre la cual se coloca la red o malla divisoria. Esta línea divide la cancha en dos parte iguales que miden 9 m, y donde jugará cada uno de los equipos.</p>
+                      <p>Luego, década lado de la línea central debe estar marcada una línea que delimita la zona de ataque y que mide 3 m en cada lado de la cancha.</p>
+                      <p>La parte restante es la zona defensiva y donde se posicionan los zagueros y el líbero.
+                      </p>
+
+                    </div>
+                    <!--Fundamentos-->
+                    <div class="row">
+                      <div id="fundamentos"></div>
+                      <h1>Fundamentos del voleibol</h1>
+                      <p>En la imagen se puede observar una ejecución de saque de pelota.</p>
+                      <p>Los fundamentos del voleibol se refiere a las diferentes técnicas motrices que se ejecutan para golpear e impulsar la pelota durante las diversas acciones de juego.</p>
+                      <p>Saque o servicio: se inicia en cada jugada por detrás de la línea de fondo. Como estrategia va dirigido al punto débil del equipo contrario.</p>
+                      <p>Ataque: tiene como fin interceptar cualquier balón del equipo contrario. Se trata de saltar junto a la red con los brazos alzados para devolver el balón al campo contrario, o estrecharle el campo de ataque para buscar que el balón quede fuera de juego. En el bloqueo pueden participar tres jugadores.</p>
+                      <p>Recepción: controlar el balón para entregarlo al compañero para que este pueda jugarlo.</p>
+                      <p>Colocación: al jugador que le corresponde hacer el segundo toque debe poner el balón en perfectas condiciones para que el tercer jugador pueda rematarlo en el campo contrario. Los remates tienen como fin ir dirigidos a las zonas mal defendidas e ir con velocidad para que el jugador contrario no lo pueda controlar.</p>
+                      <p>Golpe de antebrazos: se colocan los antebrazos a la altura de la cintura para recibir y golpear los balones bajos a fin de hacer un buen pase al compañero de juego o evitar que el balón toque el suelo, de esta manera el balón puede volver a tomar altura y una mejor dirección.</p>
+                      <p>Golpe de dedos: es un golpe preciso que se emplea para realizar pases entre compañeros o para pasar la pelota al otro lado de la red. En este caso se reciben las pelotas altas con los dedos lo que permite darle mayor precisión y dirección.</p>
+                      <p>Remate: se trata de devolver la pelota al lado contrario con gran fuerza y de manera inesperada para los contrincantes, a fin de lograr anotar un punto.</p>
+                    </div>
+                    
+                  
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+                <p class="text-center">
+                    Todos los derechos reservados 2024.Diseñador Web Jada Hernandez Amaya
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

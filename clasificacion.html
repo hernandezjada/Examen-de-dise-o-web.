@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de pagina web con bootstrap5</title>
+    <link rel="stylesheet" href="css/bootstrap.min (2).css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <header>
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Deportes de Honduras</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Clasificación</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Más populares
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="futbol.html">Fútbol</a></li>
+                                  <li><a class="dropdown-item" href="boxeo.html">Boxeo</a></li>
+                                  <li><a class="dropdown-item" href="karate.html">Karate</a></li>
+                                  <li><a class="dropdown-item" href="béisbol.html">Béisbol</a></li>
+                                  <li><a class="dropdown-item" href="natacion.html">Natación</a></li>
+                                  <li><a class="dropdown-item" href="baloncesto.html">Baloncesto</a></li>
+                                  <li><a class="dropdown-item" href="atletismo.html">Atletismo</a></li>
+                                  <li><a class="dropdown-item" href="voleibol.html">Voleibol</a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/portada1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>No pretendas hacer todo perfecto a la primera, las cosas difíciles llevan su tiempo.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>El verdadero fracaso no es perder, sino no atreverse a intentarlo.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>“No te midas por lo que has logrado, sino por lo que deberías haber logrado con tu capacidad”</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada4.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Cuanto más hacemos, más podemos hacer</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada5.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Puedo porque creo que puedo</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada6.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>La persistencia puede cambiar el fracaso en un logro extraordinario</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/portada7.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Tu mayor oponente no es la otra persona. Es la naturaleza humana</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+        </header>
+        <section>
+            <div class="row mt-5">
+                <aside class="col-sm-12-col-md-4">
+                    <div class="list-group">
+                        <a href="#clasificación" class="list-group-item list-group-item-action " aria-current="true">
+                          ¿Cuáles son los tipos de deporte?
+                        </a>
+                        <a href="#colectivos" class="list-group-item list-group-item-action">Deportes individuales, colectivos y en grupo</a>
+                        <a href="#competitiva" class="list-group-item list-group-item-action">Deportes según su lógica competitiva</a>
+                        <a href="#practican" class="list-group-item list-group-item-action">Deportes según el lugar donde se practican</a>
+                        
+                      </div>
+                </aside>
+                <section class="col-sm-12 col-md-8">
+                    <!--Clasificacion-->
+                    <div class="row">
+                        <div id="clasificacion"></div>
+                            <h1>¿Cuáles son los tipos de deporte?</h1>
+                            <small> <strong> 01 de marzo 2024 por Jada Hernndez Amaya</strong> </small>
+                            <img src="img/tipos.3.jpg" alt="">
+                            <p>
+                              El deporte es una actividad física que se realiza por el gusto o el entretenimiento que provee, o sea, sin fines productivos. Normalmente son actividades de tipo competitivo, que abarcan una serie de juegos o disciplinas, cada una dotada de normas y métodos propios.
+
+
+                                </p>
+                                <p>
+                                  Existen muchísimos deportes diferentes en el mundo, practicados de modos y en condiciones enteramente distintos, por lo que una lista de los tipos de deporte que existen puede ser muy amplia y muy difícil de sistematizar. Sin embargo, a grandes rasgos, se puede distinguir entre: </p>
+                                  <h3>Tipos de deportes según el número de jugadores.</h3>
+                                  <p>En esta clasificación se distingue entre deportes individuales, deportes colectivos y deportes de equipo.</p>
+                                  <h3>Tipos de deportes según la lógica competitiva.</h3>
+                                 <p> En esta clasificación se distingue entre deportes de red, deportes de combate, deportes de pared, deportes de precisión, deportes de tiempo y marca, deportes de ataque o invasión, deportes de campo y golpe, deportes de conducción y deportes técnico-combinatorios.</p>
+                                 <h3>Tipos de deportes según el lugar en que se practican</h3>
+                                  <p>En esta clasificación se distingue entre deportes acuáticos, deportes de cancha, deportes aéreos, deportes de invierno, deportes de salón y deportes de montaña.</p>
+                                  <img src="img/tipos.2.jpg" class="rounded float-end" alt="">
+                               
+                               
+                        </div>
+                    </div>
+                    <!--/Clasificacion-->
+                    <!--Colectivos-->
+                    <div class="row">
+                        <div id="deporte">
+                            <h1>Deportes individuales, colectivos y en grupo</h1>
+                            <h4>Deportes individuales</h4><p> Son aquellos que el jugador practica de manera individual, sin requerir de la intervención de los demás. Por ejemplo: el atletismo y la gimnasia artística.</p>
+                            <h4>Deportes colectivos</h4><p>Son aquellos que reúnen a distintos jugadores que practican de manera cooperativa, para vencer al equipo contrario. Por ejemplo: el fútbol, el voleibol o el béisbol.</p>
+                            <h4>Deportes en grupo</h4><p>Son aquellos que reúnen a un determinado número de jugadores en una misma competición, pero estos no forman equipos entre sí. Por ejemplo: el boxeo, el maratón o el ciclismo.</p>
+                        </div>
+                    </div>
+                    <!--/Colectivos-->
+                    <!--Competitiva-->
+                    <div class="row">
+                      <div id="definicion"></div>
+                      <h1>Deportes según su lógica competitiva</h1>
+                      <h4>Deportes de red.</h4><p> Se trata de disciplinas deportivas en cuya práctica interviene un obstáculo o red que se extiende a distintos niveles sobre el suelo; y comúnmente los jugadores deben evitar que la pelota o el volante entre en contacto con la red. Por ejemplo: el voleibol, el tenis, el ping-pong y el bádminton.</p>
+                     <h4>Deportes de combate.</h4> <p>Se trata de disciplinas deportivas en las que dos o más competidores deben enfrentarse físicamente, y gana la competición quien venza al otro. Por ejemplo: el boxeo, el sumo, el judo y el taekwondo.</p>
+                        <h4>Deportes de precisión.</h4><p>Se trata de disciplinas deportivas en las que se debe impactar un blanco fijo o móvil, empleando diversos instrumentos o aparatos para ello. Esto incluye los deportes en los que se hace mover una pelota para impactar un blanco o para que ingrese en un agujero. Por ejemplo: el tiro al blanco, la arquería, el golf, el bowling, el lanzamiento de dardos y el pool.</p>
+                          <h4>Deportes de ataque o invasión.</h4><p>Se trata de disciplinas deportivas en las que un equipo de jugadores debe penetrar en el campo del otro, normalmente al control de una pelota, para así anotar un punto en la cancha ajena; mientras que el equipo rival debe intentar impedírselo y hacerse con el control de la pelota para un contraataque. Por ejemplo: el fútbol, el básquetbol, el rugby y el hockey.</p>
+                            <h4>Deportes de campo y golpe</h4><p>Se trata de disciplinas deportivas en las que un equipo debe usar palos o bates para golpear una pelota y el rival debe intentar mantenerla bajo su control. Normalmente son deportes que involucran fuerza y rapidez. Por ejemplo: el béisbol, el críquet y el softbol.</p>
+                              
+                    </div>
+                     <!--/Competitiva-->
+                     <!--Practica-->
+                     <div class="row">
+                      <div id="practican"></div>
+                      <h1>Deportes según el lugar donde se practican</h1>
+                      <h4>Deportes de cancha.</h4><p> Son aquellos que se practican dentro de un espacio especialmente delimitado, siguiendo mediciones exactas, que ofrece el espacio ideal para la práctica deportiva, tales como estadios, canchas, pistas y otras instalaciones similares. Por ejemplo: el fútbol, el básquetbol, el paddle, el atletismo y el hockey.</p>
+                      <h4>Deportes acuáticos.</h4><p> Son aquellos que se practican en el agua o en la superficie del agua, ya sea en el mar, un lago o una piscina. Por ejemplo: el windsurf, el surf, la navegación, el kayak y la natación.</p>
+                      <h4></h4><p>Deportes de montaña. Son aquellos que se practican en laderas empinadas o crestas montañosas, o bien en espacios artificiales que los imitan. Por ejemplo: la escalada, el senderismo, el alpinismo y el esquí.
+
+                        Fuente: https://concepto.de/tipos-de-deporte/#ixzz8WktdsPW4</p>
+                      <h4>Deportes de salón.</h4><p> Son aquellos que se practican bajo techo, ya sea en sitios de usos múltiples o en instalaciones propicias para ello. Por ejemplo: el fútbol sala, el ping-pong, el frontón y el ajedrez.</p>
+                     </div>
+
+                    
+                  
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+                <p class="text-center">
+                    Todos los derechos reservados 2024.Diseñador Web Jada Hernandez Amaya
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
